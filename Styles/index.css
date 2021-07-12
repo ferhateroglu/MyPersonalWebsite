@@ -16,7 +16,7 @@ body{
 /*nagisayon adı(ferhat eroğlu)*/
 .nav_section .navbar-brand{
     font-size: 22px;
-    color: white !important;
+    color: white !important
 }
 .nav_section .navbar-nav li{
     margin: 0px 8px;
@@ -193,5 +193,27 @@ canvas.particles-js-canvas-el{
         text-align: center;
     }
 }
-
+/*About us section*/
+.about_section{
+    background-color: #282A39;
+    padding: 170px 0px;
+}
+.about_section #heading{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    line-height: 57px;
+}
+.about_section .lets_talk{
+    color: white;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.about_section #info_gmail{
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--pink-color);
+    margin-top: 35px;
+    word-spacing: 6px;
+}
 
