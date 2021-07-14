@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
 :root {
     --background-color: #333647;
     --pink-color: #F87652;
@@ -15,11 +16,12 @@ body{
 
 /*nagisayon adı(ferhat eroğlu)*/
 .nav_section .navbar-brand{
-    font-size: 22px;
-    color: white !important
+    font-size: 25px;
+    color: white !important;
 }
 .nav_section .navbar-nav li{
     margin: 0px 8px;
+    
 }
 
 /* navigasyon tuşları */
@@ -216,4 +218,32 @@ canvas.particles-js-canvas-el{
     margin-top: 35px;
     word-spacing: 6px;
 }
+
+.about_section .contact_info{
+    margin-top: 15px;
+    
+}
+.about_section .contact_info h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 6px;
+}
+.about_section .about_me_right_section #txt{
+    font-size: 15px;
+    margin-top: 13;
+    line-height: 25px;
+    color: var(--secondary-color );
+}
+.about_section .about_me_right_section hr{
+    margin: 0px;
+    border: 0.5px solid var(--pink-color);
+    width: 6rem;
+}
+.about_section .about_me_right_section table td{
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+
 
