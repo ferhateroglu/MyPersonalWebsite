@@ -246,4 +246,26 @@ canvas.particles-js-canvas-el{
     font-size: 13px;
 }
 
+.about_section .about_me_right_section button{
+    /* buton köşelerini oval yapar*/
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    background-color: var(--pink-color);
+    border: 3px solid var(--pink-color);
+    font-family: 'poppins', sans-serif;
+        margin-top: 10px;
+}
 
+.about_section .about_me_right_section button:hover{
+    animation: swing;
+    animation-duration: 0.5s;
+}
+@media (max-width: 993px) and (min-width: 768px){
+    .about_section .about_me_right_section #txt{
+        font-size: 12px;
+    }
+    .about_section #heading{
+        font-size: 28px !important;
+    }
+}
