@@ -303,3 +303,27 @@ canvas.particles-js-canvas-el{
     background: var(--bg-color-of-list-in-skills-section);
     font-size: 14px;
 }
+.skills_section .social_media_icons .list-group-item a{
+    transition: 0.5s;
+}
+.skills_section .social_media_icons .list-group-item:hover a{
+    margin-left: 10px;
+}
+.skills_section_right_section  .each_skills{
+    margin: 20px 0px;
+}
+.skills_section_right_section .each_skills span{
+    color:  white !important;
+    font-size: 14px;
+}
+.skills_section_right_section .each_skills .progress{
+    background: var(--bg-color-of-list-in-skills-section) ;
+    border-radius: 100px;
+    margin-top: 3px;
+    height: 10px;
+}
+.skills_section_right_section .each_skills .progress-bar{
+    background: var(--pink-color) !important;
+    color: transparent;
+}
+
