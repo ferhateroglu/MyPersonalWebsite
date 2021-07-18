@@ -5,7 +5,8 @@
     --background-color: #333647;
     --pink-color: #F87652;
     --secondary-color:#bbbbbb;
-    --bg-color-of-list-in-skills-section: #81818180
+    --bg-color-of-list-in-skills-section: #81818180;
+    --card-bg-color: #232432;
 }
 * {
     font-family: 'Poppins', sans-serif;
@@ -326,4 +327,73 @@ canvas.particles-js-canvas-el{
     background: var(--pink-color) !important;
     color: transparent;
 }
+/*Portfolio Section*/
+.portfolio_section{
+    background-color: #282A39;
+    padding: 170px 0px;
+}
+.portfolio_section a{
+    margin-left: 5px;
+    margin-right: 5px; 
+    font-size: 17px ;
+    font-weight: bold; 
+    text-align: center; 
+    border-top: 1px solid black; 
+}
+.portfolio_section .nav-tabs{
+    border: none;
+    width: 30%;
+    text-align: center;
+}
+.portfolio_section .nav-tabs .nav-link.active{
+    border: none;
+    color: white;
+    border-bottom: 2px solid var(--pink-color) !important;
+    background: transparent;
+}
+.portfolio_section .nav-tabs .nav-link.active:hover{
+    border-bottom: 2px solid var(--pink-color) !important;
+}
+.portfolio_section .nav-tabs .nav-item.show .nav-link{
+    font-weight: 400;
+    font-size: 14px;
+    background: transparent !important;
 
+}
+.portfolio_section .nav-tabs .nav-link:hover{
+    border: none;
+}
+
+.portfolio_section .tab-content .card img{
+    border: 2px solid white;
+}
+/*Blog Section*/
+.blog_section{
+    background-color: #282A39;
+    padding-bottom: 170px;
+}
+.blog_section .card{
+    background: var(--card-bg-color);
+}
+.blog_section .card:hover{
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+.blog_section .card-body .title{
+    font-size: 22px;
+    font-weight: 500;
+}
+.blog_section .card-body .date{
+    font-size: 11px;
+}
+.blog_section .card-body .date span{
+    color: var(--pink-color);
+}
+.blog_section .card-body .txt{
+    font-size: 12px;
+    color: var(--secondary-color);
+}
+.blog_section .card-body a{
+    color: var(--pink-color);
+    font-size: 13px;
+}
