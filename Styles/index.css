@@ -9,7 +9,7 @@
     --card-bg-color: #232432;
 }
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 body{
     background-color: var(--background-color) !important ;
@@ -21,24 +21,25 @@ html{
 
 /* navbar */
 
-/*nagisayon adı(ferhat eroğlu)*/
-.nav_section .navbar-brand{
+/*nagisayon adı*/
+#nav_section .navbar-brand{
     font-size: 25px;
     color: white !important;
 }
-.nav_section .navbar-nav li{
+
+#nav_section .navbar-nav li{
     margin: 0px 8px;
     
 }
 
 /* navigasyon tuşları */
-.nav_section .navbar-nav li a{
+#nav_section .navbar-nav li a{
     color: white !important;
     font-size: 15px;
 }
 
 /*Hover efekti before olarak 0 px uzunluğunda tanımlanıyor*/
-.nav_section .navbar-nav .nav-link::before{
+#nav_section .navbar-nav .nav-link::before{
     content: '';
     width: 0px;
     height: 0px;
@@ -49,7 +50,7 @@ html{
     
 }
 
-.nav_section .navbar-nav .nav-link:hover::before{
+#nav_section .navbar-nav .nav-link:hover::before{
     content: '';
     width: 30px;
     height: 2px;
@@ -338,6 +339,7 @@ canvas.particles-js-canvas-el{
     padding: 50px 0px;
 }
 
+
 .portfolio_section a{
     margin-left: 5px;
     margin-right: 5px; 
@@ -350,11 +352,11 @@ canvas.particles-js-canvas-el{
     border: none;
     width: 30%;
     text-align: center;
+    margin-top: 0px;
 }
 .portfolio_section .nav-tabs .nav-link.active{
-    border: none;
     color: white;
-    border-bottom: 2px solid var(--pink-color) !important;
+    border: 2px solid var(--pink-color) !important;
     background: transparent;
 }
 .portfolio_section .nav-tabs .nav-link.active:hover{
@@ -374,7 +376,8 @@ canvas.particles-js-canvas-el{
     border: 2px solid white;
 }
 /*Blog Section*/
-.blog_section{
+
+/*.blog_section{
     background-color: #282A39;
     padding-bottom: 170px;
 }
@@ -402,4 +405,4 @@ canvas.particles-js-canvas-el{
 .blog_section .card-body a{
     color: var(--pink-color);
     font-size: 13px;
-}
+}*/
